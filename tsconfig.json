@@ -14,6 +14,6 @@
     // By default, it is "crlf" on Windows
     // We want to always use "lf" to be consistent with all platforms and reduce the file size of
     // the output
-    "newLine": "lf",
-  },
+    "newLine": "lf"
+  }
 }

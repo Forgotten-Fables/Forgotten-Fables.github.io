@@ -32,15 +32,19 @@
   // By default, VSCode will not automatically fill-in function arguments
   "javascript.suggest.completeFunctionCalls": true,
   "typescript.suggest.completeFunctionCalls": true,
-
+  "editor.formatOnSave": true,
   // Automatically run the formatter when a JavaScript or TypeScript file is saved
   "[javascript]": {
     "editor.codeActionsOnSave": ["source.fixAll.eslint"],
-    "editor.tabSize": 2
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "[typescript]": {
     "editor.codeActionsOnSave": ["source.fixAll.eslint"],
-    "editor.tabSize": 2
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
+
   "cSpell.words": ["bdcharge", "isaacscript"]
 }
